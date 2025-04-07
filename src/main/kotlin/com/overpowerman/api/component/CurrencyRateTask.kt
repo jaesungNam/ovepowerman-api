@@ -14,7 +14,7 @@ import java.time.Duration
 @Component
 class CurrencyRateTask {
 
-    @Scheduled(fixedRate = 1000)
+    @Scheduled(fixedRate = 1000 * 60 * 5)
     fun currencyRatePolling() {
         val options = ChromeOptions()
         options.addArguments("--headless=new") // 창 없이 실행 (서버에서 유용)

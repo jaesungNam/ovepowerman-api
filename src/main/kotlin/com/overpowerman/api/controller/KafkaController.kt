@@ -14,7 +14,11 @@ class KafkaController {
 
     @GetMapping("/send")
     fun testKafka(@RequestParam("message") message: String ) {
-        var m = CurrencyRate(message, "wq", 2.0)
-        kafkaTemplate.send("test-topic3", m)
+        kafkaTemplate.executeInTransaction { t ->
+            t.send("test-topic3", CurrencyRate("${message}1", "wq", 2.0))
+            t.send("test-topic3", CurrencyRate("${message}2", "wq", 2.0))
+            t.send("test-topic3", CurrencyRate("${message}3", "wq", 2.0))
+            t.send("test-topic3", CurrencyRate("${message}4", "wq", 2.0))
+        }
     }
 }

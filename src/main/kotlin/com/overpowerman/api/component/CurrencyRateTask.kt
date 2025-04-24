@@ -4,10 +4,12 @@ import CurrencyRate
 import org.openqa.selenium.By
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.remote.RemoteWebDriver
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
+import java.net.URL
 import java.time.Duration
 
 
@@ -22,7 +24,9 @@ class CurrencyRateTask {
         options.addArguments("--disable-dev-shm-usage")
         options.addArguments("--disable-gpu")
 
-        val driver = ChromeDriver(options)
+        //val driver = ChromeDriver(options)
+        val remoteDriverUrl = URL("http://www.overpowerman.click:4444")
+        val driver = RemoteWebDriver(remoteDriverUrl, options)
         driver.get("https://www.kebhana.com/cms/rate/index.do?contentUrl=/cms/rate/wpfxd651_01i.do");
         val wait = WebDriverWait(driver, Duration.ofSeconds(10))
         wait.until(

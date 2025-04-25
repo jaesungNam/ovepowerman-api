@@ -18,7 +18,7 @@ class CurrencyRateTask {
 
     @Scheduled(fixedRate = 1000 * 60 * 5)
     fun currencyRatePolling() {
-        val options = ChromeOptions()
+        /*val options = ChromeOptions()
         options.addArguments("--headless=new") // 창 없이 실행 (서버에서 유용)
         options.addArguments("--no-sandbox")
         options.addArguments("--disable-dev-shm-usage")
@@ -49,7 +49,7 @@ class CurrencyRateTask {
             CurrencyRate(currency, currencyKor, if(divide100) rate / 100 else rate)
         }
 
-        println(currencyRates)
+        println(currencyRates)*/
 
     }
 

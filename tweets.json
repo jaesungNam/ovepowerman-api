@@ -1,0 +1,13 @@
+[
+  {"createdAt":1713960000000,"id":1000000000000000001,"lang":"en","retweet":false,"text":"bitcoin is changing the financial world!"},
+  {"createdAt":1713960100000,"id":1000000000000000002,"lang":"ko","retweet":true,"text":"etherium 기반의 서비스가 점점 늘고 있다."},
+  {"createdAt":1713960200000,"id":1000000000000000003,"lang":"en","retweet":false,"text":"Real-time charts powered by Kafka Streams and etherium data."},
+  {"createdAt":1713960300000,"id":1000000000000000004,"lang":"ja","retweet":true,"text":"これはビットコインの新しい時代だ！"},
+  {"createdAt":1713960400000,"id":1000000000000000005,"lang":"es","retweet":false,"text":"La revolución de bitcoin no se detiene."},
+  {"createdAt":1713960500000,"id":1000000000000000006,"lang":"en","retweet":false,"text":"Is etherium the future of decentralized apps?"},
+  {"createdAt":1713960600000,"id":1000000000000000007,"lang":"fr","retweet":true,"text":"Le bitcoin atteint un nouveau sommet aujourd'hui."},
+  {"createdAt":1713960700000,"id":1000000000000000008,"lang":"de","retweet":false,"text":"Mit etherium kann man viel mehr als nur bezahlen."},
+  {"createdAt":1713960800000,"id":1000000000000000009,"lang":"en","retweet":false,"text":"bitcoin adoption is growing fast in South America."},
+  {"createdAt":1713960900000,"id":1000000000000000010,"lang":"ko","retweet":true,"text":"etherium 스마트 계약이 실생활에 도입되고 있다."}
+]
+

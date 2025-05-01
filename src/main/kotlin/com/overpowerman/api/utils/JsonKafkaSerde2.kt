@@ -6,7 +6,7 @@ import org.apache.kafka.common.serialization.Deserializer
 import org.apache.kafka.common.serialization.Serde
 import org.apache.kafka.common.serialization.Serializer
 
-class JsonKafkaSerde<T>(
+class JsonKafkaSerde2<T>(
     private val targetClass: Class<T>
 ): Serde<T> {
     override fun serializer(): Serializer<T> {

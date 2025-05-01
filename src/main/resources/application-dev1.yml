@@ -1,0 +1,6 @@
+server:
+  port: 8081
+game-app:
+  kafka-state-dir: /Users/jasper/kafka-state-dir1
+  hostname: localhost:8081
+

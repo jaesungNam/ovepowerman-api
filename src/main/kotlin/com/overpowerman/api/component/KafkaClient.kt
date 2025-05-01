@@ -1,16 +1,12 @@
 package com.overpowerman.api.component
 
-import CurrencyRate
+import com.overpowerman.api.model.CurrencyRate
 import jakarta.annotation.PostConstruct
 import org.apache.kafka.clients.admin.NewTopic
-import org.apache.kafka.clients.producer.ProducerConfig
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties
 import org.springframework.context.annotation.Bean
 import org.springframework.kafka.annotation.KafkaListener
-import org.springframework.kafka.core.DefaultKafkaProducerFactory
 import org.springframework.kafka.core.KafkaTemplate
-import org.springframework.kafka.core.ProducerFactory
 import org.springframework.stereotype.Component
 
 

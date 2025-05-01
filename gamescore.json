@@ -1,0 +1,35 @@
+1001|{"id":1001,"name":"Alice"}
+1002|{"id":1002,"name":"Bob"}
+1003|{"id":1003,"name":"Charlie"}
+1004|{"id":1004,"name":"Diana"}
+1005|{"id":1005,"name":"Ethan"}
+1006|{"id":1006,"name":"Ethan"}
+1007|{"id":1007,"name":"Kim"}
+1008|{"id":1008,"name":"Kim2"}
+1009|{"id":1009,"name":"KimKim"}
+1010|{"id":1010,"name":"Nam"}
+
+1|{"id": 1, "name": "sword"}
+2|{"id": 2, "name": "Under"}
+3|{"id": 3, "name": "Another"}
+
+{"score": 20.4, "productId": 1, "playerId": 1001}
+{"score": 100.3, "productId": 1, "playerId": 1002}
+{"score": 144.3, "productId": 1, "playerId": 1003}
+{"score": 52.2, "productId": 1, "playerId": 1004}
+{"score": 70.2, "productId": 1, "playerId": 1005}
+{"score": 130.2, "productId": 1, "playerId": 1006}
+
+{"score": 199.4, "productId": 1, "playerId": 1003}
+
+{"score": 2.4, "productId": 2, "playerId": 1001}
+{"score": 10.3, "productId": 2, "playerId": 1002}
+{"score": 14.3, "productId": 2, "playerId": 1003}
+{"score": 5.2, "productId": 2, "playerId": 1004}
+{"score": 7.2, "productId": 2, "playerId": 1005}
+{"score": 1.2, "productId": 2, "playerId": 1006}
+{"score": 199.0, "productId": 1, "playerId": 1007}
+
+{"score": 22.22, "productId": 3, "playerId": 1009}
+
+{"score": 22.22, "productId": 2, "playerId": 1010}

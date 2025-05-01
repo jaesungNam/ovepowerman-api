@@ -1,16 +1,7 @@
 package com.overpowerman.api.component
 
-import CurrencyRate
-import org.openqa.selenium.By
-import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions
-import org.openqa.selenium.remote.RemoteWebDriver
-import org.openqa.selenium.support.ui.ExpectedConditions
-import org.openqa.selenium.support.ui.WebDriverWait
 import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Component
-import java.net.URL
-import java.time.Duration
 
 
 @Component
@@ -46,7 +37,7 @@ class CurrencyRateTask {
             val divide100 = splited.getOrElse(2){""}.contains("100") ?: false
 
             val rate = tds[1].text.replace(",", "").toDouble()
-            CurrencyRate(currency, currencyKor, if(divide100) rate / 100 else rate)
+            com.overpowerman.api.model.CurrencyRate(currency, currencyKor, if(divide100) rate / 100 else rate)
         }
 
         println(currencyRates)*/

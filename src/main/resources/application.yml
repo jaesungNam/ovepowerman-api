@@ -23,3 +23,7 @@ aws:
   region: ap-northeast-2
   s3:
     bucket: overpowerman-bucket
+
+game-app:
+  kafka-state-dir: /Users/jasper/kafka-state-dir
+  hostname: localhost:8080
